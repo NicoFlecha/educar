@@ -1,0 +1,10 @@
+com\nico\educarjava\entities\Categoria.class
+com\nico\educarjava\JAXRSConfiguration.class
+com\nico\educarjava\utils\ConnectionManager.class
+com\nico\educarjava\entities\Profesor.class
+com\nico\educarjava\entities\TipoUsuario.class
+com\nico\educarjava\entities\Tema.class
+com\nico\educarjava\resources\JavaEE8Resource.class
+com\nico\educarjava\entities\Usuario.class
+com\nico\educarjava\entities\Curso.class
+com\nico\educarjava\entities\Persona.class
