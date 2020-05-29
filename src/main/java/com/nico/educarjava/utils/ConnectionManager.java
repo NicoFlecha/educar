@@ -9,7 +9,7 @@ public class ConnectionManager {
     public Connection getConnection() {
         String user     = "root";
         String password = "";
-        String bd       = "educar_db";
+        String bd       = "educar";
         String host     = "localhost";
         String port     = "3306";
         String timeZone = "UTC";
@@ -31,7 +31,6 @@ public class ConnectionManager {
             System.out.println("Conexión exitosa a la BBDD");
             
         } catch (ClassNotFoundException ex) {
-            // Logger.getLogger(Intro.class.getName()).log(Level.SEVERE, null, ex);
             System.out.println("Error al cargar el driver de MySQL:" + ex.getMessage());
             
         } catch (SQLException ex) {

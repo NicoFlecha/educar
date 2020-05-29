@@ -1,0 +1,25 @@
+/*-------- ARTICLE --------*/
+#formulario {
+    /*background-color: red;*/
+}
+
+#formulario .form-container{
+    display: block;
+    width: 100%;
+}
+
+#formulario .card.horizontal {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#formulario .register-form-btn, .login-form-btn {
+    margin-top: 20px;
+}
+
+.error-container .row{
+    
+    margin-bottom: 0;
+    
+}

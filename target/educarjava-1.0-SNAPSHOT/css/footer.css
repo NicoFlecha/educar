@@ -1,0 +1,29 @@
+/* -------- FOOTER ------- */
+footer.page-footer {
+    padding-top: 10px;
+}
+
+footer h5 {
+    margin: 0;
+}
+
+footer i {
+    font-size: 15px;
+}
+
+footer .contacto {
+    text-align: center;
+}
+
+/* -------- MEDIA QUERIES ------- */
+
+/* --- Tablet --- */
+
+@media (min-width: 768px) {
+
+    footer.page-footer .contacto ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}

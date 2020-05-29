@@ -1,0 +1,115 @@
+#cursos {
+    margin-top: 10px;
+}
+
+#cursos h1 {
+    text-align: center;
+}
+
+#cursos h2 {
+    text-align: center;
+}
+
+/* #cursos div.col {
+    background-color: red;
+} */
+
+.curso-container .card {
+    margin-bottom: 0.5rem;
+    padding: 5px;
+}
+
+.curso-container .row {
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+#cursos div.col .title-img, #cursos div.col .title-text {
+    height: 60px;
+}
+
+#cursos div.col .title-img {
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cursos div.col .title-img img {
+    height: 95%;
+}
+
+#cursos div.col .title-text, .details-container, .duration, .rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#cursos .details-container {
+    height: 35px;
+}
+
+#cursos .details-container .rating span,
+#cursos .details-container .duration span {
+    margin-left: 4px;
+}
+
+
+/* -------- OPCIONES ------- */
+
+/* --- Option Container --- */
+
+div.option-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* --- Modal --- */
+
+#modal-categorias .modal-header {
+    position: relative;
+}
+
+#modal-categorias .modal-header h4 {
+    text-align: center;
+}
+
+#modal-categorias .modal-header button {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: none;
+    border: none;
+}
+
+.categoria-container .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.categoria-container .card-image {
+    /* cambia estos dos valores para definir el tamaño de tu círculo */
+    height: 120px;
+    width: 120px;
+    /* los siguientes valores son independientes del tamaño del círculo */
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: auto 100%;
+    margin-top: .65rem;
+}
+
+.categoria-container h5 {
+    margin: .65rem 0;
+}
+
+/* ------- FILTROS UL ------- */
+
+#dropdown-filtros {
+    padding: 0 10px;
+    width: 150px;
+}

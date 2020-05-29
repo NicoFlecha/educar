@@ -1,0 +1,50 @@
+/* -------- GENERAL ------- */
+h1 {
+    text-align: center;
+}
+
+.card .card-action {
+    text-align: right;
+}
+
+/* -------- CAROUSEL ------- */
+
+#noticias div.carousel-slider {
+    height: 30vh;
+}
+
+#noticias div.carousel-slider .carousel-item, .active {
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+}
+
+#noticias div.carousel .carousel-item h2 {
+    font-size: 45px;
+    text-align: center;
+    width: 100%;
+}
+
+/* -------- NOTICIA FIJADA ------- */
+
+#noticia-fijada .card-image img{
+    max-height: 25vh;
+}
+
+#noticia-fijada .card .card-title {
+    width: 100%;
+    text-align: center;
+}
+
+/* -------- NOTICIAS ------- */
+
+
+.noticia .card-content {
+    padding: 15px;
+}
+
+.noticia .card-content h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}

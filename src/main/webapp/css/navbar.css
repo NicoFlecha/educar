@@ -1,0 +1,64 @@
+/* ------- NAV ------- */
+
+div.navbar-logo {
+    display: inline-flex;
+    align-items: center;
+}
+
+div.navbar-logo img {
+    width: 45px;
+}
+
+/* ------- SIDENAV ------- */
+
+#mobile-demo {
+    width: 240px;
+    font-size: 20px;
+    border: none;
+}
+
+#mobile-demo a.collection-item {
+    background-color: transparent;
+    color: white;
+    line-height: 45px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+#mobile-demo a.collection-item i {
+    line-height: 45px;
+}
+
+/* -------- MEDIA QUERIES ------- */
+
+/* --- Tablet --- */
+
+@media (min-width: 768px) {
+
+    nav a.brand-logo {
+        margin-left: 25px;
+    }
+
+    div.navbar-logo img {
+        width: 55px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    div.container {
+        margin: 0;
+        width: 100%;
+    }
+    
+}
+
+
+/*     --- Breakpoint Default ---
+   --- Muestra barra de navegación --- */
+
+@media only screen and (min-width: 993px) {
+    
+    div.container {
+        width: 80%;
+    }
+}

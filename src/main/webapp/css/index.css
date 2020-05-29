@@ -1,0 +1,69 @@
+/* -------- ARTICLE ------- */
+
+article {
+    margin-top: 20px;
+}
+
+div.card .card-content .card-title {
+    text-align: center;
+}
+
+/*--- Novedades --- */
+
+#novedades {
+    position: relative ;
+}
+
+#novedades h3 {
+    text-align: center;
+}
+
+#novedades h3 a {
+    color: inherit;
+}
+
+#mas-btn {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 15%;
+}
+
+/* --- Parallax --- */
+
+div.parallax-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: auto;
+    min-height: 50vh;
+}
+
+/* -------- MEDIA QUERIES ------- */
+
+/* --- Tablet --- */
+
+@media (min-width: 768px) {
+    
+    #banner .carousel.carousel-slider {
+        max-height: 45vh;
+    }
+
+    /* --- Novedades --- */
+    #mas-btn {
+        display: inline-block;
+        margin-right: 10.5px;
+    }
+
+}
+
+/*     --- Breakpoint Default ---
+   --- Muestra barra de navegación --- */
+
+@media (min-width: 993px) {
+
+    #banner {
+        margin-top: 20px;
+    }
+}

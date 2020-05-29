@@ -1,0 +1,23 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+article {
+    flex: 1 0 auto;
+}
+
+.drag-target {
+    width: 25px;
+}
+
+.toast {
+    background-color: #009688;
+    text-align: center;
+}

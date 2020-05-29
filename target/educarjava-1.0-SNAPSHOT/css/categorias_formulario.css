@@ -1,0 +1,22 @@
+.categoria-container .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.categoria-container .card-image {
+    /* cambia estos dos valores para definir el tamaño de tu círculo */
+    height: 120px;
+    width: 120px;
+    /* los siguientes valores son independientes del tamaño del círculo */
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: auto 100%;
+    margin-top: .65rem;
+}
+
+.categoria-container h5 {
+    margin: .65rem 0;
+    text-align: center;
+}

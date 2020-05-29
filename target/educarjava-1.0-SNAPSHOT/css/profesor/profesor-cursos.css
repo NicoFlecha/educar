@@ -1,0 +1,15 @@
+#cursos h1 {
+    text-align: center;
+}
+
+#cursos .curso .card-content {
+    padding: 20px;
+}
+
+#cursos .curso .card-content p {
+    font-size: 20px;
+}
+
+#cursos .curso .card-action {
+    padding: 5px;
+}
